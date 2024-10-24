@@ -1,0 +1,108 @@
+name: efnep_mobile
+description: "A new Flutter project."
+
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Packages
+  firebase_auth: ^4.17.4
+  firebase_core: ^2.1.1
+  cloud_firestore: ^4.15.4
+  firebase_storage: ^11.0.4
+  google_sign_in: ^6.2.1
+  firebase_analytics:
+  firebase_messaging: ^14.4.0
+  posthog_flutter: ^4.0.1
+
+  # Utility Packages
+  path_provider: ^2.0.11
+  provider: ^6.0.3
+  cached_network_image: ^3.2.2
+  rename: ^3.0.1
+  intl: ^0.19.0
+  permission_handler: ^11.3.0
+  share: ^2.0.1
+  image_picker: ^1.0.7
+  url_launcher: ^6.1.7
+  flutter_native_splash: ^2.2.14
+  image_cropper: ^5.0.1
+  shared_preferences: ^2.2.0
+  flutter_local_notifications: 
+  app_settings:
+  http:
+  sqflite: 
+  fl_chart: 
+  
+  # UI Packages
+  shimmer: ^3.0.0
+  fluttertoast: ^8.0.9
+  cupertino_icons: ^1.0.2
+  flutter_staggered_grid_view: ^0.7.0
+  google_nav_bar: ^5.0.6
+  line_awesome_flutter: ^2.0.0
+  font_awesome_flutter: ^10.2.1
+  flutter_neumorphic: 
+    git:
+      url: https://github.com/den0206/Flutter-Neumorphic.git
+      ref: feature/remoce_accentcolor
+  youtube_player_flutter: ^8.1.2
+  liquid_pull_to_refresh: ^3.0.1 
+  video_player: ^2.7.0
+  lottie: 
+  firebase_crashlytics: ^3.3.7
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/logo.png
+  color_dark: "#ffffff"
+  image_dark: assets/logo.png
+
+  android_12:
+    image: assets/logo.png
+    icon_background_color: "#ffffff"
+    image_dark: assets/logo.png
+    icon_background_color_dark: "#ffffff"
+
+  web: true
+  ios: true
+  android: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/CustomIcons.ttf
+
+    - family: Nanami
+      fonts:
+        - asset: assets/fonts/Nanami-HM-Book.otf
+          weight: 600
+        - asset: assets/fonts/Nanami-HM-Bold.otf
+          weight: 700
+
+    - family: AvenirNext
+      fonts:
+        - asset: assets/fonts/AvenirNext.ttc
+
+    - family: DansHandWriting
+      fonts:
+        - asset: assets/fonts/DansHandWriting.ttf

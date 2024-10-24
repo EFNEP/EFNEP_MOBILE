@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "405004722252",
+    "project_id": "efnep-mobile",
+    "storage_bucket": "efnep-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405004722252:android:3055fff8424ceddbe8d4e9",
+        "android_client_info": {
+          "package_name": "edu.ncsu.efnep.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405004722252-36m6cuqp3oa3s48crp0kq361ntduh20m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ncsu.efnep.mobile",
+            "certificate_hash": "e132e30902f6e84e1cc1ef75cc32fab134ffe61f"
+          }
+        },
+        {
+          "client_id": "405004722252-f46lbq1ik94jfkdh1h90k5n3krbt2cad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW2KWBC6UyzQyKONOy_f_ttca65tZoeE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405004722252-f46lbq1ik94jfkdh1h90k5n3krbt2cad.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "405004722252-4vsh11av1n94hj9uilg8uqm1u31fi3l0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "edu.ncsu.efnep.mobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
